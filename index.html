@@ -25,153 +25,101 @@
 	</head>
 	<body>
 
-		<!-- Wrapper -->
-			<div class="wrapper style1">
+	<!-- Header -->
+		<div id="header">
+			<!--div id="logo"-->
+			<div id="logo">
+				<h1><a href="index.html">Portfolio</a></h1>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li class="active"><a href="index.html">Homepage</a></li>
+					<li><a href="#aboutMe">About Me</a></li>
+					<li><a href="#">Technical Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+				</ul>
+			</nav>
+		</div>
 
-				<!-- Header -->
-					<div id="header" class="skel-panels-fixed">
-						<!--div id="logo"-->
-						<div id="logo">
-							<h1><a href="index.html">Portfolio</a></h1>
-						</div>
-						<nav id="nav">
-							<ul>
-								<li class="active"><a href="index.html">Homepage</a></li>
-								<li><a href="#aboutMe">About Me</a></li>
-								<li><a href="#">Technical Skills</a></li>
-								<li><a href="#projects">Projects</a></li>
-							</ul>
-						</nav>
-					</div>
+		<!-- About Me -->
+	<div class="wrapper style1">
+			<div id="aboutMe" class="container">
+				<section class="12u">
+					<h2 class="secTitle">About Me</h2>
+				</section>
+				<div class="row no-collapse-1">
+					<section class="12u">
+						<span class="text1"> Hey, my name is Jesus Rodriguez. I recently graduated from the University of North Texas, and I am looking to become a highly skilled software engineer.</span>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/jesus-rodriguez-38b7b7186/" class = "fa fa-linkedin" target="_blank"><span>LinkeIn</span></a></li>
+				<li><a href="https://github.com/JesusRodriguezUNT" class="fa fa-github" target="_blank"><span>GitHub</span></a></li>
+				<li><a href="mailto:jesusrodriguez5unt@gmail.com" class="fa fa-envelope"><span>E-mail</span></a></li>
+				<li><a href="#" class="fa fa-file"><span>Resume</span></a></li>
+			</ul>
+					</section>
+				</div>
+			</div>
 
-				<!-- About Me -->
-					<div id="aboutMe" class="container">
-						<section class="12u">
-							<h2 class="secTitle">About Me</h2>
+		<!-- Projects -->
+			<!----h2 id="projects" style="text-align:center;padding:1em;font-size:4em;color:black">Projects</h2-->
+			<h2 id="projects" class="secTitle">Projects</h2>
+			<div id="projectList">
+				<div class="container">
+					<div class="row no-collapse-1">
+						<!----section class="4u"> <a href="#" class="image featured"><img src="images/restaurantApp.PNG" alt=""></a-->
+						<section class="6u"> <div class="image featured"><img src="images/restaurantApp.PNG" alt=""></div>
+							<div class="box">
+								<h3 class="subtitle">Restaurant App</h3> <br>
+								<p>In this software engineering project, I and five other group members were tasked with creating a set of apps to serve a fictional restaurant business. The project consists of three UI applications, one for the customers, one for the kitchen, and one for the waiters, as well as a server application that allows communication between all other apps.</p>
+								<strong>My Role</strong>
+								<p>My primary role in this team project was the design and implementation of the server application. Since the project involved communication between different types of applications, I implemented a multithreaded server program and made sure it recognized the appropriate destination for a message.</p>
+								<section>
+									<strong>Technologies Used</strong> <br>
+									<ul class="techUsed">			
+										<li>Java</li>
+										<li>Swing</li>
+									</ul>
+								</section>
+								<a href="#" class="button" target="_blank">Demo</a>
+								<a href="https://github.com/noairresistance/restaurant-app" class="button" target="_blank">Github</a> </div>
 						</section>
-						<div class="row no-collapse-1">
-							<section class="12u">
-								<span class="text1"> Hey, my name is Jesus Rodriguez. I recently graduated from the University of North Texas and I am looking for my first career opportunity. I want to become a highly skilled software engineer.</span>
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/jesus-rodriguez-38b7b7186/" class = "fa fa-linkedin" target="_blank"><span>LinkedIn</span></a></li>
-						<li><a href="https://github.com/JesusRodriguezUNT" class="fa fa-github" target="_blank"><span>GitHub</span></a></li>
-						<li><a href="mailto:jesusrodriguez5unt@gmail.com" class="fa fa-envelope"><span>E-mail</span></a></li>
-					</ul>
-							</section>
-						</div>
-					</div>
-
-				<!-- Projects -->
-					<!----h2 id="projects" style="text-align:center;padding:1em;font-size:4em;color:black">Projects</h2-->
-					<h2 id="projects" class="secTitle">Projects</h2>
-					<div id="projectList">
-						<div class="container">
-							<div class="row no-collapse-1">
-								<!----section class="4u"> <a href="#" class="image featured"><img src="images/restaurantApp.PNG" alt=""></a-->
-								<section class="5u"> <div class="image featured"><img src="images/restaurantApp.PNG" alt=""></div>
-									<div class="box">
-										<h3 class="subtitle">Restaurant App</h3> <br>
-										<p>
-											In this software engineering project, I and five other group members were tasked with creating a set of apps to serve a fictional restaurant business. The project consists of three UI applications, one for the customers, one for the kitchen, and one for the waiters, as well as a server application that allows communication between all UI apps.
-										</p>
-										<p>Written using: <strong>Java, Swing</strong></p>
-										<a href="#" class="button" target="_blank">Demo</a>
-										<a href="https://github.com/noairresistance/restaurant-app" class="button" target="_blank">Github</a> </div>
+						<section class="6u"> <div class="image featured"><img src="images/degreePlanApp.PNG" alt=""></div>
+							<div class="box">
+								<h3 class="subtitle">UNT Degree Planning App</h3> <br>
+								<p>This is my senior software engineering capstone project. For this project, I and three other group members worked with a professor at UNT to create an app for her. Our app is designed to allow students to plan out their UNT degree and view the information about the classes for that degree.</p>
+								<strong>My Role</strong>
+								<p>I was involved in different aspects of this project. I created the some of the models, such as course and transfer credit models, that became the schemas for our database.
+									I wrote back-end code to query our PostgreSQL database and organized the results to arrange the data before displaying it. I also wrote back-end calculations such as the code to calculate the appropriate degree timeline.
+									Lastly, I also worked with HTML5, CSS, and JavaScript to populate some of the webpages such as the degree view page.
+								</p>
+								<section>
+									<strong>Technologies Used</strong> <br>
+									<ul class="techUsed">
+										<li>Django</li>
+										<li>Python</li>
+										<li>JavaScript</li>
+										<li>HTML5</li>
+										<li>CSS</li>
+										<li>PostgreSQL</li>
+									</ul>
 								</section>
-								<section class="5u"> <div class="image featured"><img src="images/degreePlanApp.PNG" alt=""></div>
-									<div class="box">
-										<h3 class="subtitle">UNT Degree Planning App</h3> <br>
-										<p>This is my senior software engineering capstone project. For this project, I and three other group members worked with a professor at UNT to create an app for her. Our app is designed to allow students to plan out their UNT degree and view the information about the classes for that degree.</p>
-										<p>Written using: <strong>Django, Python, Postgresql, HTML, JavaScript, CSS</strong></p>
-										<a href="#" class="button" target="_blank">Demo</a>
-										<a href="https://github.com/PrincessChalet/OptimizePrime" class="button" target="_blank">Github</a> </div>
-								</section>
-							</div>
-
-							<div class="row no-collapse-1">
-							</div>
-						</div>
+								<a href="#" class="button" target="_blank">Demo</a>
+								<a href="https://github.com/PrincessChalet/OptimizePrime" class="button" target="_blank">Github</a> </div>
+						</section>
 					</div>
 
-				<!-- Main -->
-					<div id="main">
-						<div class="container">
-							<div class="row"> 
-								
-								<!-- Content -->
-								<div class="6u">
-									<section>
-										<ul class="style">
-											<li class="fa fa-wrench">
-												<h3>Integer ultrices</h3>
-												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
-											<li class="fa fa-leaf">
-												<h3>Aliquam luctus</h3>
-												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
-										</ul>
-									</section>
-								</div>
-								<div class="6u">
-									<section>
-										<ul class="style">
-											<li class="fa fa-cogs">
-												<h3>Integer ultrices</h3>
-												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
-											<li class="fa fa-road">
-												<h3>Aliquam luctus</h3>
-												<span>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula. Pellentesque viverra vulputate enim. Aliquam erat volutpat. Maecenas condimentum enim tincidunt risus accumsan.</span> </li>
-										</ul>
-									</section>
-								</div>
-							</div>
-						</div>
+					<div class="row no-collapse-1">
 					</div>
-
+				</div>
+			</div>
 	</div>
 
-	<!-- Footer -->
-		<div id="footer" class="wrapper style2">
-			<div class="container">
-				<section>
-					<header class="major">
-						<h2>Mauris vulputate dolor</h2>
-						<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
-					</header>
-					<form method="post" action="#">
-						<div class="row half">
-							<div class="12u">
-								<input class="text" type="text" name="name" id="name" placeholder="Name" />
-							</div>
-						</div>
-						<div class="row half">
-							<div class="12u">
-								<input class="text" type="text" name="email" id="email" placeholder="Email" />
-							</div>
-						</div>
-						<div class="row half">
-							<div class="12u">
-								<textarea name="message" id="message" placeholder="Message"></textarea>
-							</div>
-						</div>
-						<div class="row half">
-							<div class="12u">
-								<ul class="actions">
-									<li>
-										<input type="submit" value="Send Message" class="button alt" />
-									</li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</section>
-			</div>
-		</div>
 
 	<!-- Copyright -->
 		<div id="copyright">
 			<div class="container">
 				<div class="copyright">
-					<p>Design: <a href="http://templated.co">TEMPLATED</a></p>
+					<p>Adapted design from: <a href="http://templated.co">TEMPLATED</a></p>
 				</div>
 			</div>
 		</div>

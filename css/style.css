@@ -291,27 +291,30 @@
 			}
 
 			ul.icons li span {
-				display: none;
+				color:white;
+				padding: .2em;
 			}
 
 			ul.icons li a {
-				display: inline-block;
-				color: #828282;
+				display: inline;
+				color: white;
 				width: 30px;
 				height: 30px;
 				text-align: center;
+				text-decoration: none;
 			}
 
 				ul.icons li a:before {
 					display: inline-block;
-					border: 1px solid #828282;
+					border: 1px solid white;
 					width: 2em;
 					height: 2em;
 					line-height: 2em;
 					font-size: 1em;
-					color: #828282;
+					color: white;
 					border-radius: 100%;
 					text-align: center;
+					text-decoration: none;
 				}
 
 	ul.actions {
@@ -624,7 +627,6 @@
 	.box {
 		padding: 3em 2em;
 		background: #FFF;
-		text-align: center;
 		border-radius: 0px 0px 6px 6px;
 	}
 
@@ -637,8 +639,26 @@
 		color: black;
 	}
 
+	.subtitle {
+		text-align: center;
+	}
+
 	.text1 {
 		text-align: center;
 		color: white;
 		font-size: 1.5em;
+	}
+
+	.techUsed{
+		margin: 1.5em;
+		list-style: disc;
+	}
+
+	.exLink {
+		font-family: 'Raleway', sans-serif;
+		text-decoration-line: none;
+	}
+
+	.floatHeader {
+		position: fixed;
 	}
